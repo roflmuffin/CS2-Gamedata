@@ -78,7 +78,7 @@
     "signatures": {
       "library": "server",
       "windows": "48 89 5C 24 ? 48 89 7C 24 ? 55 48 8B EC 48 83 EC 50 48 8B F9 4C 8B C2",
-      "linux": "55 48 89 F2 48 89 E5 53 48 89 FB 48 8D 7D E0 48 83 EC 18 48 8D 05 BE 8C E4 00"
+      "linux": "55 48 89 F2 48 89 E5 53 48 89 FB 48 8D 7D ? 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B 30 48 8B 06 FF 50 ? 48 8B 45 ? 48 8D 75 ? 48 89 DF 48 89 45 ? E8 ? ? ? ? 48 8B 5D ? C9 C3 CC CC CC 55"
     }
   },
   "CCSPlayer_WeaponServices_CanUse": {
@@ -130,7 +130,7 @@
     "signatures": {
       "library": "server",
       "windows": "48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 55",
-      "linux": "55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC C8 00 00 00 48 8D 05 6A 4C FF 00"
+      "linux": "55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC ? ? ? ? 48 8D 05 ? ? ? ? F3 0F 11 85"
     }
   },
   "CCSGameRules_FindPickerEntity": {
@@ -157,7 +157,7 @@
     "signatures": {
       "library": "server",
       "windows": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 30 48 8B EA",
-      "linux": "55 48 8D 05 60 7F 41 FF"
+      "linux": "55 48 8D 05 ? ? ? ? 48 89 E5 41 57 49 89 CF 41 56 41 89 D6"
     }
   },
   "CEntityInstance_AcceptInput": {
@@ -178,7 +178,7 @@
     "signatures": {
       "library": "server",
       "windows": "48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9 74",
-      "linux": "48 8B 05 79 2D D5 00"
+      "linux": "48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38"
     }
   },
   "CBasePlayerPawn_CommitSuicide": {
