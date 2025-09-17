@@ -103,8 +103,8 @@
   },
   "CCSPlayer_ItemServices_DropActivePlayerWeapon": {
     "offsets": {
-      "windows": 20,
-      "linux": 21
+      "windows": 21,
+      "linux": 22
     }
   },
   "CCSPlayer_ItemServices_RemoveWeapons": {
@@ -182,8 +182,8 @@
   },
   "CBasePlayerPawn_CommitSuicide": {
     "offsets": {
-      "windows": 403,
-      "linux": 403
+      "windows": 409,
+      "linux": 411
     }
   },
   "CBasePlayerPawn_RemovePlayerItem": {
