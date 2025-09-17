@@ -183,7 +183,7 @@
   "CBasePlayerPawn_CommitSuicide": {
     "offsets": {
       "windows": 408,
-      "linux": 410
+      "linux": 408
     }
   },
   "CBasePlayerPawn_RemovePlayerItem": {
